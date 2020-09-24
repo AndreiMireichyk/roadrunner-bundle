@@ -53,7 +53,7 @@ return static function (ContainerConfigurator $container) {
 
     $services->set(RelayInterface::class, SocketRelay::class)
         ->args([
-            '%kernel.project_dir%/var/roadrunner.sock',
+            '%kernel.project_dir%/rr/roadrunner.sock',
             null,
             SocketRelay::SOCK_UNIX,
         ]);

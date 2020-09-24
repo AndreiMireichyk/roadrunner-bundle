@@ -1,12 +1,12 @@
 {
-    "name": "baldinof/roadrunner-bundle",
+    "name": "andrey_mireichyk/roadrunner-bundle",
     "type": "symfony-bundle",
     "description": "A RoadRunner worker as a Symfony Bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Florent Baldino",
-            "email": "baldinof@gmail.com"
+            "name": "Andrei Mireichyk",
+            "email": "a.mireichyk@gmail.com"
         }
     ],
     "autoload": {

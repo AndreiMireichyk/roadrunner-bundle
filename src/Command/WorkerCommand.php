@@ -49,7 +49,7 @@ final class WorkerCommand extends Command
 
                 workers:
                     command: "php bin/console baldinof:roadrunner:worker"
-                    relay: "unix://var/roadrunner.sock"
+                    relay: "unix://rr/roadrunner.sock"
 
             static:
                 dir:   "public"

@@ -44,8 +44,8 @@ class MetricFactoryTest extends TestCase
     public function correctDsnProvider($dsn)
     {
         return [
-            ['unix://var/socket.sock'],
-            ['unix:///var/socket.sock'],
+            ['unix://rr/socket.sock'],
+            ['unix:///rr/socket.sock'],
             ['tcp://:6000'],
             ['tcp://0.0.0.0:6000'],
             ['tcp://127.0.0.1:6000'],
